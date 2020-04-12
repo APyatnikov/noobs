@@ -8,7 +8,7 @@ import asyncio
 from asyncio import transports
 from PySide2.QtWidgets import QMainWindow, QApplication
 from asyncqt import QEventLoop
-from app.interface import Ui_MainWindow
+from interface import Ui_MainWindow
 
 
 class ClientProtocol(asyncio.Protocol):
